@@ -1,0 +1,14 @@
+Package: woehleR
+Type: Package
+Title: Plots and Calculations needed for endurance strength operations
+Version: 0.1.0
+Authors@R: person("Tim", "Kreitner", email = "tim@kreitner.xyz", role = c("aut", "cre"))
+Description: This Package plots Woehler Curves as well as make the necessary reductions for load cases. 
+    It also allows for different sampling techniques. It uses the ggplot2 package for plotting, so you can modify the standard layout
+    for your own purposes. To do the data munging it uses the dplyr package.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr
