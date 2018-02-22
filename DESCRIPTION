@@ -12,4 +12,5 @@ LazyData: true
 Imports:
     ggplot2,
     dplyr,
-    zoo
+    zoo, 
+    berryFunctions
