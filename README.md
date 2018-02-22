@@ -6,8 +6,13 @@ A R package with useful calculations for endurance-strength of ferrous materials
 
 ### Rainflow Matrix
 
+- rainflow counting
+- rainflow matrix
+
 ## Plots
 
 ### Rainflow Plot (2D - Tile)
+A 2D tile plot, based on the rainflow matrix, showing the distribution of the external stress.
 
 ### Woehler Curve
+Standard Woehler curve.
