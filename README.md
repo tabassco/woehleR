@@ -5,6 +5,12 @@ A R package with useful calculations for endurance-strength of ferrous materials
 ## Calculations
 
 ### Rainflow Matrix
+
+**Rainflow Matrix:** Denotes the stress cycles with the from and to categories. Counting each cycle with the [i,j] position.
+To get the individual connections the 4-point algorithm is used.
+
+---
+
 *Inputs:*
 - stress values: 2 coloumn data-frame with order-id / time-stamp and stress values
 - n - Amount of categories to be used
@@ -14,13 +20,10 @@ A R package with useful calculations for endurance-strength of ferrous materials
 
 ---
 **Usage:**:
+
 ``` r
 reduced_test_data <- rainflow(time_series, n = 16)
 ```
-
-**Rainflow Counting:** Use the 4-point algorithm to determine the individual stress cycles. 
-
-**Rainflow Matrix:** Denotes the stress cycles with the from and to categories. Counting each cycle with the [i,j] position.
 
 ## Plots
 
